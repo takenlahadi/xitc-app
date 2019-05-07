@@ -49,4 +49,8 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    public void doRegistration(View view) {
+        Toast.makeText(LoginActivity.this, "Registration", Toast.LENGTH_LONG).show();
+    }
+
 }
